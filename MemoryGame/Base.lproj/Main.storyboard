@@ -220,13 +220,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4q7-vI-HxT">
-                                <rect key="frame" x="51" y="405" width="62" height="28.333333333333314"/>
+                                <rect key="frame" x="51" y="405" width="142" height="28"/>
                                 <fontDescription key="fontDescription" name="NotoSansOriya-Bold" family="Noto Sans Oriya" pointSize="20"/>
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Highest Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMl-tq-1OU">
-                                <rect key="frame" x="51" y="441" width="222" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highest Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMl-tq-1OU">
+                                <rect key="frame" x="51" y="440.33333333333331" width="222" height="28.333333333333314"/>
                                 <fontDescription key="fontDescription" name="NotoSansOriya-Bold" family="Noto Sans Oriya" pointSize="20"/>
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -234,12 +234,14 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jMl-tq-1OU" secondAttribute="trailing" constant="141" id="0G4-6f-Hgs"/>
                             <constraint firstItem="DTW-gh-zaa" firstAttribute="centerX" secondItem="VK2-xq-C3I" secondAttribute="centerX" id="20J-6q-97V"/>
                             <constraint firstItem="VK2-xq-C3I" firstAttribute="top" secondItem="sOd-Oc-YeP" secondAttribute="bottom" constant="17.5" id="6dC-p4-yR3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VK2-xq-C3I" secondAttribute="trailing" constant="16" id="Ia2-a3-yua"/>
                             <constraint firstItem="DTW-gh-zaa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="LYh-Xi-DU8"/>
                             <constraint firstItem="DTW-gh-zaa" firstAttribute="top" secondItem="VK2-xq-C3I" secondAttribute="bottom" constant="123" id="QtN-S0-DeL"/>
                             <constraint firstItem="jMl-tq-1OU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="VUi-0h-tK8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4q7-vI-HxT" secondAttribute="trailing" constant="221" id="aeo-17-o7v"/>
                             <constraint firstItem="4q7-vI-HxT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="g2M-cA-m1q"/>
                             <constraint firstItem="sOd-Oc-YeP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="h2k-jF-50m"/>
                             <constraint firstItem="jMl-tq-1OU" firstAttribute="top" secondItem="4q7-vI-HxT" secondAttribute="bottom" constant="7" id="hEi-hc-Ini"/>
@@ -279,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="99.753694581280797"/>
+            <point key="canvasLocation" x="136.23188405797103" y="99.107142857142847"/>
         </scene>
     </scenes>
 </document>
